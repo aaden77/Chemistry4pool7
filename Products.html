@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> The Sugar Industry Authority</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<body>
+<style>
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 20px 40px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        border-bottom: 3px solid #070707;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+    .navbar:hover {
+        background-color: #e1f102;
+        box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+    }
+    .navbar a {
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+        transition: color 0.3s, transform 0.3s, background-color 0.3s;
+        font-weight: 600;
+        margin: 0 10px;
+    }
+    .navbar a::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 0;
+        height: 4px;
+        background: #037a17;
+        transition: width 0.4s, left 0.4s;
+    }
+    .navbar a:hover {
+        color: #037a17;
+        background-color: #037a17;
+        transform: translateY(-3px);
+    }
+    .navbar a:hover::after {
+        width: 100%;
+        left: 0;
+    }
+    .navbar .logo {
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: #ffffff;
+        transition: transform 0.3s;
+    }
+    .navbar .logo:hover {
+        transform: scale(1.1);
+        color: #ffb703;
+    }
+    @media (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .navbar a {
+            padding: 12px;
+            width: 100%;
+            text-align: left;
+            margin: 5px 0;
+        }
+    }
+
+
+    .hero {
+        height: 100vh;
+        background-image: url("https://www.mcia.mu/wp-content/uploads/2022/11/3.png");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        position: relative;
+        width: 100%;
+
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+
+
+    .hero h1 {
+        position: relative;
+        font-size: 3em;
+        margin: 0;
+    }
+    .hero p {
+        position: relative;
+        font-size: 1.5em;
+    }
+
+
+
+    .accordion {
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .accordion-item {
+        border-bottom: 1px solid #ccc;
+    }
+    .accordion-header {
+        padding: 10px;
+        cursor: pointer;
+        background: #e1f102;
+        color: white;
+    }
+    .accordion-content {
+        display: none;
+        padding: 10px;
+
+
+    }
+</style>
+<div class="navbar">
+    <a style="color: #101010; font-size: 25px; font-family: 'Lucida Calligraphy'" class="logo" href="Index.html"><img style="height: 80px; width: 80px; padding-right: 10px" src="https://jamaicasugar.org/images/sialogo2016_p3ndj5md.png" alt=""> The Sugar Industry Authority</a>
+    <div> <a style="color: #000000" href="Index.html">Home</a>
+        <a style="color: #000000" href="Factory%20Location.html">Factory Locations</a>
+    </div>
+</div>
+
+<div class="container text-center" style="padding: 100px; background: #f8f851">
+    <div class="row">
+        <div class="col">
+            <h4 style="font-family: 'Modern No. 20'">Sugar, primarily sucrose, is used in a wide range of products across various industries. Here’s a breakdown of some of the common products made from sugar and their uses:
+<br><br>
+            1. Granulated Sugar
+            Uses: The most common form of sugar, granulated sugar is used in baking, cooking, sweetening beverages, and as a general sweetener in various food products.
+            <br><br>
+
+                2. Powdered (Confectioners') Sugar
+            Uses: This finely ground sugar, often mixed with a small amount of cornstarch, is primarily used in frostings, icings, and as a dusting for pastries and desserts.
+            <br><br>
+
+                3. Brown Sugar
+            Uses: Brown sugar contains molasses, giving it a distinct flavor. It is commonly used in baking, cooking, and sauces, especially in recipes for cookies, cakes, and barbecue sauces.
+           <br><br>
+
+
+            4. Molasses
+            Uses: Molasses is a thick, dark syrup left after the sugar extraction process. It's used in baking (e.g., gingerbread), in making certain alcoholic beverages like rum, as a sweetener in sauces, and as a flavor enhancer in recipes like baked beans.
+            </h4>
+
+        </div></div>
+        <div class="col" style="padding: 50px">
+            <img style="width: 900px; height: 300px" src="https://media.post.rvohealth.io/wp-content/uploads/2020/06/sugar-varieties-syrup-honey-glucose-1200x628-facebook-1200x628.jpg">
+        </div>
+    </div>
+
+</body>
+</html>
